@@ -2,7 +2,7 @@
 
 cargo tauri android build \
     --apk \
-    --split-per-abi \
-    --target armv7 \
-    --target aarch64
+    --target aarch64 \
+    --target x86_64 \
+    --split-per-abi
 mv src-tauri/gen/android/app/build/outputs/apk/*/release/*-release.apk .
