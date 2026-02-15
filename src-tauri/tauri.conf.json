@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "疯狂农场价格计算器",
+  "productName": "疯农计算器",
   "version": "0.1.0",
   "identifier": "top.fknc",
   "build": {
@@ -10,7 +10,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "疯狂农场价格计算器",
+        "title": "疯农计算器",
         "width": 600,
         "height": 800
       }
