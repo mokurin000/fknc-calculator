@@ -72,12 +72,12 @@ const localRecord = () => {
 (function () {
     'use strict';
 
-    if (w.fetch === undefined) {
+    if (w === undefined || w === null) {
         console.log("Unable to obtain unsafeWindow, early abort!");
         return;
     }
 
-    // try to Disable realtime stats update
+    // Disable realtime stats update
     w.WebSocket = undefined;
 
 
@@ -192,10 +192,16 @@ window.addEventListener("DOMContentLoaded", () => {
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(3)
     /* Hide feedback button */
     , div.calculator-result-fixed > div.gradient-button
+    /* Hide footer links */
+    , div.footer-beian
     {
         display: none !important;
     }
-
+    
+    /* Margin padding of footer */
+    div.crop-selector {
+        margin-bottom: 16px;
+    }
     `;
     document.documentElement.appendChild(styleSheet);
 });
