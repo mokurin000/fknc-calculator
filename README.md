@@ -1,10 +1,17 @@
-# fknc-calculator
+# 疯狂农场计算器
 
-Webview wrapper of `fknc.top`.
+只是一个 `fknc.top` 的应用套壳。
 
-## Download
+## 下载
 
-You could find releases on [github](https://github.com/mokurin000/fknc-calculator/releases/latest).
+安装包可以从 [github](https://github.com/mokurin000/fknc-calculator/releases/latest) 上下载，
 
-For Android users, select the `app-x86_64-release.apk` one only if you're using
-this in a Android simulator on your PC, otherwise get the `arm64` one.
+安卓用户可以选 `app-arm64-release.apk` ，除非是要在电脑用模拟器跑。
+
+## 安装
+
+### Arch Linux
+
+```bash
+paru -S fknc-calculator
+```
