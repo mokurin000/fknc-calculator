@@ -26,4 +26,7 @@ dist-ssr
 /.android_key
 /*.apk
 
-/src/*
+/src/index.html
+/src/assets
+/src/carzyfarm
+
