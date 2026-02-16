@@ -2,6 +2,12 @@
 
 只是一个 `fknc.top` 的应用套壳。
 
+## 参与开发
+
+```bash
+cargo tauri dev --no-dev-server
+```
+
 ## 下载
 
 安装包可以从 [github](https://github.com/mokurin000/fknc-calculator/releases/latest) 上下载，
