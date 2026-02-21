@@ -2,7 +2,7 @@ cargo-features = ["panic-immediate-abort"]
 
 [package]
 name = "fknc-calculator"
-version = "0.2.0"
+version = "0.2.1"
 description = "疯狂农场果实价格计算器"
 authors = ["mokurin000"]
 edition = "2021"
