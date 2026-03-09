@@ -16,14 +16,14 @@ val tauriProperties = Properties().apply {
 
 android {
     compileSdk = 34
-    namespace = "top.fknc"
+    namespace = "top.fknc.offline"
     defaultConfig {
         manifestPlaceholders["usesCleartextTraffic"] = "false"
-        applicationId = "top.fknc"
+        applicationId = "top.fknc.offline"
         minSdk = 24
         targetSdk = 34
-        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "11").toInt()
-        versionName = tauriProperties.getProperty("tauri.android.versionName", "0.2.7")
+        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "1").toInt()
+        versionName = tauriProperties.getProperty("tauri.android.versionName", "0.0.1")
     }
     signingConfigs { 
           create("release") { 
