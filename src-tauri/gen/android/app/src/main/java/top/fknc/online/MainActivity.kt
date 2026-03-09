@@ -1,3 +1,3 @@
-package top.fknc.offline
+package top.fknc.online
 
 class MainActivity : TauriActivity()
