@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "疯农计算器",
+  "productName": "疯农计算器在线版",
   "identifier": "top.fknc.offline",
   "build": {
     "frontendDist": "../src"
