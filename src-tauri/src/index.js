@@ -108,6 +108,9 @@ const localRecord = () => {
             mockBody = JSON.stringify({
                 allowed: true
             });
+        } else if (parsed.pathname === "/rest/v1/user_profiles") {
+            // Spoof phone number
+            mockBody = JSON.stringify([{ phone: 110 }]);
         } else if (parsed.pathname === "/rest/v1/rpc/get_my_subscription") {
             // Spoof premium expiry time
             mockBody = JSON.stringify({
@@ -187,9 +190,10 @@ window.addEventListener("DOMContentLoaded", () => {
     , div.user-center-section:nth-child(2) > div.user-center-membership > button
     /* Hide user feedback */
     , button.contact-option-button:nth-child(3)
-    /* Hide invite, top list */
+    /* Hide phone, invite, top list */
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(2)
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(3)
+    , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(4)
     /* Hide feedback button */
     , div.calculator-result-fixed > div.gradient-button
     /* Hide footer links */
@@ -197,7 +201,7 @@ window.addEventListener("DOMContentLoaded", () => {
     {
         display: none !important;
     }
-    
+
     /* Margin padding of footer */
     div.crop-selector {
         margin-bottom: 16px;
