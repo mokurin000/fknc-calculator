@@ -22,8 +22,8 @@ android {
         applicationId = "top.fknc"
         minSdk = 24
         targetSdk = 34
-        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "11").toInt()
-        versionName = tauriProperties.getProperty("tauri.android.versionName", "0.2.7")
+        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "12").toInt()
+        versionName = tauriProperties.getProperty("tauri.android.versionName", "8.0.2")
     }
     signingConfigs { 
           create("release") { 
