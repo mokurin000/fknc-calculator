@@ -17,10 +17,10 @@ name = "fknc_calculator_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
-tauri-build = { version = "2", features = [] }
+tauri-build = { version = "2.5.6", features = [] }
 
 [dependencies]
-tauri = { version = "2", features = [] }
+tauri = { version = "2.10.3", features = [] }
 
 [profile.release]
 lto = true
