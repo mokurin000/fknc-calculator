@@ -2,7 +2,7 @@ cargo-features = ["panic-immediate-abort"]
 
 [package]
 name = "fknc-calculator"
-version = "0.0.2"
+version = "0.0.3"
 description = "疯狂农场果实价格计算器"
 authors = ["mokurin000"]
 edition = "2021"
@@ -17,10 +17,10 @@ name = "fknc_calculator_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
-tauri-build = { version = "2.5.6", features = [] }
+tauri-build = { version = "2.6.2", features = [] }
 
 [dependencies]
-tauri = { version = "2.10.3", features = [] }
+tauri = { version = "2.11.2", features = [] }
 
 [profile.release]
 lto = true
