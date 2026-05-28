@@ -1,0 +1,937 @@
+{
+  "crops": [
+    {
+      "name": "灰壤豆",
+      "imageUrl": "/carzyfarm/新灰壤豆.png",
+      "maxWeight": 3.4,
+      "sortOrder": 0,
+      "growthSpeed": 180,
+      "specialMutation": null,
+      "priceCoefficient": 1374.736
+    },
+    {
+      "name": "土豆",
+      "imageUrl": "/carzyfarm/土豆.png",
+      "maxWeight": 11.9,
+      "sortOrder": 1,
+      "growthSpeed": 28.5,
+      "specialMutation": "薯片",
+      "priceCoefficient": 26.3026
+    },
+    {
+      "name": "香菇",
+      "imageUrl": "/carzyfarm/香菇.png",
+      "maxWeight": 3.4,
+      "sortOrder": 2,
+      "growthSpeed": 133,
+      "specialMutation": null,
+      "priceCoefficient": 687.682
+    },
+    {
+      "name": "番茄",
+      "imageUrl": "/carzyfarm/番茄.png",
+      "maxWeight": 10.2,
+      "sortOrder": 3,
+      "growthSpeed": 33.33,
+      "specialMutation": null,
+      "priceCoefficient": 66.2398
+    },
+    {
+      "name": "波斯菊",
+      "imageUrl": "/carzyfarm/波斯菊.png",
+      "maxWeight": 34,
+      "sortOrder": 4,
+      "growthSpeed": 17,
+      "specialMutation": null,
+      "priceCoefficient": 43.5395
+    },
+    {
+      "name": "月光草",
+      "imageUrl": "/carzyfarm/新月光草.png",
+      "maxWeight": 3.4,
+      "sortOrder": 5,
+      "growthSpeed": 111,
+      "specialMutation": null,
+      "priceCoefficient": 343.8951
+    },
+    {
+      "name": "月番茄",
+      "imageUrl": "/carzyfarm/新月番茄.png",
+      "maxWeight": 10.2,
+      "sortOrder": 6,
+      "growthSpeed": 111,
+      "specialMutation": null,
+      "priceCoefficient": 662.4769
+    },
+    {
+      "name": "大豆",
+      "imageUrl": "/carzyfarm/大豆.png",
+      "maxWeight": 3.4,
+      "sortOrder": 7,
+      "growthSpeed": 275,
+      "specialMutation": null,
+      "priceCoefficient": 2579.0104
+    },
+    {
+      "name": "月灯草",
+      "imageUrl": "/carzyfarm/新月灯草.png",
+      "maxWeight": 5.1,
+      "sortOrder": 8,
+      "growthSpeed": 205,
+      "specialMutation": null,
+      "priceCoefficient": 1498.0086
+    },
+    {
+      "name": "黄瓜",
+      "imageUrl": "/carzyfarm/黄瓜.png",
+      "maxWeight": 13.6,
+      "sortOrder": 9,
+      "growthSpeed": 50,
+      "specialMutation": "黄瓜蛇",
+      "priceCoefficient": 215.0457
+    },
+    {
+      "name": "竹子",
+      "imageUrl": "/carzyfarm/竹子.png",
+      "maxWeight": 136,
+      "sortOrder": 10,
+      "growthSpeed": 7.5,
+      "specialMutation": null,
+      "priceCoefficient": 12.2462
+    },
+    {
+      "name": "西瓜",
+      "imageUrl": "/carzyfarm/西瓜.png",
+      "maxWeight": 170,
+      "sortOrder": 11,
+      "growthSpeed": 6,
+      "specialMutation": "方形",
+      "priceCoefficient": 10.7111
+    },
+    {
+      "name": "梨",
+      "imageUrl": "/carzyfarm/梨.png",
+      "maxWeight": 13.6,
+      "sortOrder": 12,
+      "growthSpeed": 75,
+      "specialMutation": null,
+      "priceCoefficient": 484.155
+    },
+    {
+      "name": "橘子",
+      "imageUrl": "/carzyfarm/橘子.png",
+      "maxWeight": 13.6,
+      "sortOrder": 13,
+      "growthSpeed": 75,
+      "specialMutation": null,
+      "priceCoefficient": 537.9143
+    },
+    {
+      "name": "蓝莓",
+      "imageUrl": "/carzyfarm/蓝莓.png",
+      "maxWeight": 34,
+      "sortOrder": 14,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 113
+    },
+    {
+      "name": "玉米",
+      "imageUrl": "/carzyfarm/玉米.png",
+      "maxWeight": 40.8,
+      "sortOrder": 15,
+      "growthSpeed": 27.78,
+      "specialMutation": null,
+      "priceCoefficient": 103.5096
+    },
+    {
+      "name": "白菜",
+      "imageUrl": "/carzyfarm/白菜.png",
+      "maxWeight": 10.2,
+      "sortOrder": 16,
+      "growthSpeed": 80,
+      "specialMutation": null,
+      "priceCoefficient": 579.7213
+    },
+    {
+      "name": "花生",
+      "imageUrl": "/carzyfarm/花生.png",
+      "maxWeight": 5.1,
+      "sortOrder": 17,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 2844
+    },
+    {
+      "name": "牵牛花",
+      "imageUrl": "/carzyfarm/牵牛花.png",
+      "maxWeight": 5.1,
+      "sortOrder": 18,
+      "growthSpeed": 200,
+      "specialMutation": null,
+      "priceCoefficient": 2108.1851
+    },
+    {
+      "name": "棉花",
+      "imageUrl": "/carzyfarm/棉花.png",
+      "maxWeight": 5.2,
+      "sortOrder": 19,
+      "growthSpeed": 200,
+      "specialMutation": null,
+      "priceCoefficient": 2578.4733
+    },
+    {
+      "name": "银辉苔",
+      "imageUrl": "/carzyfarm/新银辉苔.png",
+      "maxWeight": 5.1,
+      "sortOrder": 20,
+      "growthSpeed": 280,
+      "specialMutation": null,
+      "priceCoefficient": 3046.6455
+    },
+    {
+      "name": "月环树",
+      "imageUrl": "/carzyfarm/新月环果.png",
+      "maxWeight": 20.4,
+      "sortOrder": 21,
+      "growthSpeed": 58,
+      "specialMutation": null,
+      "priceCoefficient": 322.0468
+    },
+    {
+      "name": "苹果",
+      "imageUrl": "/carzyfarm/苹果.png",
+      "maxWeight": 37.4,
+      "sortOrder": 22,
+      "growthSpeed": 40.5,
+      "specialMutation": "糖葫芦",
+      "priceCoefficient": 188.7409
+    },
+    {
+      "name": "石榴",
+      "imageUrl": "/carzyfarm/石榴.png",
+      "maxWeight": 20,
+      "sortOrder": 23,
+      "growthSpeed": 83.5,
+      "specialMutation": null,
+      "priceCoefficient": 527.5836
+    },
+    {
+      "name": "月莓",
+      "imageUrl": "/carzyfarm/新月莓.png",
+      "maxWeight": 8.5,
+      "sortOrder": 24,
+      "growthSpeed": 375,
+      "specialMutation": null,
+      "priceCoefficient": 3916.4157
+    },
+    {
+      "name": "星叶菜",
+      "imageUrl": "/carzyfarm/新星叶菜.png",
+      "maxWeight": 10.2,
+      "sortOrder": 25,
+      "growthSpeed": 416,
+      "specialMutation": null,
+      "priceCoefficient": 3976.5503
+    },
+    {
+      "name": "香蕉",
+      "imageUrl": "/carzyfarm/香蕉.png",
+      "maxWeight": 10.2,
+      "sortOrder": 26,
+      "growthSpeed": 280,
+      "specialMutation": "香蕉猴",
+      "priceCoefficient": 2484.6553
+    },
+    {
+      "name": "车厘子",
+      "imageUrl": "/carzyfarm/车厘子.png",
+      "maxWeight": 10.5,
+      "sortOrder": 27,
+      "growthSpeed": 166,
+      "specialMutation": null,
+      "priceCoefficient": 1657.661
+    },
+    {
+      "name": "柿子",
+      "imageUrl": "/carzyfarm/柿子.png",
+      "maxWeight": 34,
+      "sortOrder": 28,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 235
+    },
+    {
+      "name": "椰子",
+      "imageUrl": "/carzyfarm/椰子.png",
+      "maxWeight": 40.8,
+      "sortOrder": 29,
+      "growthSpeed": 32.5,
+      "specialMutation": null,
+      "priceCoefficient": 145.9826
+    },
+    {
+      "name": "南瓜",
+      "imageUrl": "/carzyfarm/南瓜.png",
+      "maxWeight": 204,
+      "sortOrder": 30,
+      "growthSpeed": 6.5,
+      "specialMutation": "万圣夜",
+      "priceCoefficient": 12.9595
+    },
+    {
+      "name": "龙眼",
+      "imageUrl": "/carzyfarm/龙眼.png",
+      "maxWeight": 10.2,
+      "sortOrder": 31,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 4353
+    },
+    {
+      "name": "草莓",
+      "imageUrl": "/carzyfarm/草莓.png",
+      "maxWeight": 8.5,
+      "sortOrder": 32,
+      "growthSpeed": 888,
+      "specialMutation": "连体",
+      "priceCoefficient": 8706.3654
+    },
+    {
+      "name": "荔枝",
+      "imageUrl": "/carzyfarm/荔枝.png",
+      "maxWeight": 23.8,
+      "sortOrder": 33,
+      "growthSpeed": 135,
+      "specialMutation": null,
+      "priceCoefficient": 790.1983
+    },
+    {
+      "name": "菠菜",
+      "imageUrl": "/carzyfarm/菠菜.png",
+      "maxWeight": 23.8,
+      "sortOrder": 34,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 3841
+    },
+    {
+      "name": "柚子",
+      "imageUrl": "/carzyfarm/柚子.png",
+      "maxWeight": 61.2,
+      "sortOrder": 35,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 226
+    },
+    {
+      "name": "液光藤",
+      "imageUrl": "/carzyfarm/新液光藤.png",
+      "maxWeight": 20.4,
+      "sortOrder": 36,
+      "growthSpeed": 520,
+      "specialMutation": null,
+      "priceCoefficient": 3512.6104
+    },
+    {
+      "name": "月核树",
+      "imageUrl": "/carzyfarm/新月核果.png",
+      "maxWeight": 17,
+      "sortOrder": 37,
+      "growthSpeed": 460,
+      "specialMutation": null,
+      "priceCoefficient": 3388.6303
+    },
+    {
+      "name": "猕猴桃",
+      "imageUrl": "/carzyfarm/猕猴桃.png",
+      "maxWeight": 13.6,
+      "sortOrder": 38,
+      "growthSpeed": 278,
+      "specialMutation": null,
+      "priceCoefficient": 2147.9813
+    },
+    {
+      "name": "榴莲",
+      "imageUrl": "/carzyfarm/榴莲.png",
+      "maxWeight": 61.2,
+      "sortOrder": 39,
+      "growthSpeed": 55.55,
+      "specialMutation": null,
+      "priceCoefficient": 202.944
+    },
+    {
+      "name": "葡萄",
+      "imageUrl": "/carzyfarm/葡萄.png",
+      "maxWeight": 10.2,
+      "sortOrder": 40,
+      "growthSpeed": 2400,
+      "specialMutation": null,
+      "priceCoefficient": 24836.8915
+    },
+    {
+      "name": "蟠桃",
+      "imageUrl": "/carzyfarm/蟠桃.png",
+      "maxWeight": 20.4,
+      "sortOrder": 41,
+      "growthSpeed": 1333.33,
+      "specialMutation": null,
+      "priceCoefficient": 8783.1627
+    },
+    {
+      "name": "星空玫瑰",
+      "imageUrl": "/carzyfarm/新星空玫瑰.png",
+      "maxWeight": 10.2,
+      "sortOrder": 42,
+      "growthSpeed": 2966.6,
+      "specialMutation": null,
+      "priceCoefficient": 33128.7533
+    },
+    {
+      "name": "月影梅",
+      "imageUrl": "/carzyfarm/新月影梅.png",
+      "maxWeight": 3.4,
+      "sortOrder": 43,
+      "growthSpeed": 4000,
+      "specialMutation": null,
+      "priceCoefficient": 77270.106
+    },
+    {
+      "name": "大王菊",
+      "imageUrl": "/carzyfarm/大王菊.png",
+      "maxWeight": 10.2,
+      "sortOrder": 44,
+      "growthSpeed": 2400,
+      "specialMutation": null,
+      "priceCoefficient": 24833.3587
+    },
+    {
+      "name": "惊奇菇",
+      "imageUrl": "/carzyfarm/惊奇菇.png",
+      "maxWeight": 10.2,
+      "sortOrder": 45,
+      "growthSpeed": 2400,
+      "specialMutation": null,
+      "priceCoefficient": 49680.1819
+    },
+    {
+      "name": "月兔",
+      "imageUrl": "/carzyfarm/新月兔.png",
+      "maxWeight": 23.8,
+      "sortOrder": 46,
+      "growthSpeed": 1524,
+      "specialMutation": null,
+      "priceCoefficient": 11161.4743
+    },
+    {
+      "name": "魔鬼朝天椒",
+      "imageUrl": "/carzyfarm/魔鬼朝天椒.png",
+      "maxWeight": 10.2,
+      "sortOrder": 47,
+      "growthSpeed": 2400,
+      "specialMutation": null,
+      "priceCoefficient": 33143.6022
+    },
+    {
+      "name": "月蟾蜍",
+      "imageUrl": "/carzyfarm/新月蟾蜍.png",
+      "maxWeight": 34,
+      "sortOrder": 48,
+      "growthSpeed": 990,
+      "specialMutation": null,
+      "priceCoefficient": 9807.0881
+    },
+    {
+      "name": "芦荟",
+      "imageUrl": "/carzyfarm/芦荟.png",
+      "maxWeight": 10.2,
+      "sortOrder": 49,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 54282.0587
+    },
+    {
+      "name": "向日葵",
+      "imageUrl": "/carzyfarm/向日葵.png",
+      "maxWeight": 51,
+      "sortOrder": 50,
+      "growthSpeed": 80,
+      "specialMutation": "笑日葵",
+      "priceCoefficient": 370.3206
+    },
+    {
+      "name": "仙人掌象",
+      "imageUrl": "/carzyfarm/仙人掌象.png",
+      "maxWeight": 34,
+      "sortOrder": 51,
+      "growthSpeed": 720,
+      "specialMutation": null,
+      "priceCoefficient": 9525.0487
+    },
+    {
+      "name": "红包树",
+      "imageUrl": "/carzyfarm/新红包果.png",
+      "maxWeight": 5.1,
+      "sortOrder": 52,
+      "growthSpeed": 5270,
+      "specialMutation": null,
+      "priceCoefficient": 83300.1019
+    },
+    {
+      "name": "火龙狗",
+      "imageUrl": "/carzyfarm/火龙狗.png",
+      "maxWeight": 34,
+      "sortOrder": 53,
+      "growthSpeed": 0,
+      "specialMutation": null,
+      "priceCoefficient": 10868
+    },
+    {
+      "name": "松果",
+      "imageUrl": "/carzyfarm/松果.png",
+      "maxWeight": 17,
+      "sortOrder": 54,
+      "growthSpeed": 570,
+      "specialMutation": null,
+      "priceCoefficient": 4615.5964
+    },
+    {
+      "name": "幻月花",
+      "imageUrl": "/carzyfarm/新幻月花.png",
+      "maxWeight": 23.8,
+      "sortOrder": 55,
+      "growthSpeed": 1142.5,
+      "specialMutation": null,
+      "priceCoefficient": 8362.3227
+    },
+    {
+      "name": "彼岸花",
+      "imageUrl": "/carzyfarm/新彼岸花.png",
+      "maxWeight": 10.2,
+      "sortOrder": 56,
+      "growthSpeed": 2766,
+      "specialMutation": null,
+      "priceCoefficient": 49683.6217
+    }
+  ],
+  "versions": {
+    "crops_version": 23,
+    "mutations_version": 13
+  },
+  "mutations": [
+    {
+      "name": "瓷化",
+      "color": "紫色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 0,
+      "multiplier": 8,
+      "shareBitIndex": 13
+    },
+    {
+      "name": "星空",
+      "color": "彩色",
+      "groupKey": "quality",
+      "isActive": true,
+      "sortOrder": 0,
+      "multiplier": 40,
+      "shareBitIndex": 3
+    },
+    {
+      "name": "霓虹",
+      "color": "彩色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 0,
+      "multiplier": 18,
+      "shareBitIndex": 30
+    },
+    {
+      "name": "金币",
+      "color": "蓝色",
+      "groupKey": "past",
+      "isActive": true,
+      "sortOrder": 0,
+      "multiplier": 5,
+      "shareBitIndex": 39
+    },
+    {
+      "name": "薯片",
+      "color": "紫色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 0,
+      "multiplier": 1.5,
+      "shareBitIndex": 5
+    },
+    {
+      "name": "橙钻",
+      "color": "金色",
+      "groupKey": "new",
+      "isActive": true,
+      "sortOrder": 0,
+      "multiplier": 18,
+      "shareBitIndex": 43
+    },
+    {
+      "name": "太阳耀斑",
+      "color": "蓝色",
+      "groupKey": "intermediate",
+      "isActive": true,
+      "sortOrder": 0,
+      "multiplier": 5,
+      "shareBitIndex": 34
+    },
+    {
+      "name": "流火",
+      "color": "金色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 15,
+      "shareBitIndex": 23
+    },
+    {
+      "name": "方形",
+      "color": "紫色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 1.5,
+      "shareBitIndex": 6
+    },
+    {
+      "name": "陶化",
+      "color": "绿色",
+      "groupKey": "intermediate",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 4,
+      "shareBitIndex": 38
+    },
+    {
+      "name": "流光",
+      "color": "彩色",
+      "groupKey": "quality",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 30,
+      "shareBitIndex": 4
+    },
+    {
+      "name": "日蚀",
+      "color": "紫色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 10,
+      "shareBitIndex": 24
+    },
+    {
+      "name": "亮晶晶",
+      "color": "紫色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 10,
+      "shareBitIndex": 14
+    },
+    {
+      "name": "极光",
+      "color": "蓝色",
+      "groupKey": "past",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 5,
+      "shareBitIndex": 32
+    },
+    {
+      "name": "幻彩",
+      "color": "金色",
+      "groupKey": "new",
+      "isActive": true,
+      "sortOrder": 1,
+      "multiplier": 3,
+      "shareBitIndex": 42
+    },
+    {
+      "name": "水晶",
+      "color": "金色",
+      "groupKey": "quality",
+      "isActive": true,
+      "sortOrder": 2,
+      "multiplier": 20,
+      "shareBitIndex": 2
+    },
+    {
+      "name": "星环",
+      "color": "紫色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 2,
+      "multiplier": 10,
+      "shareBitIndex": 15
+    },
+    {
+      "name": "幽魂",
+      "color": "蓝色",
+      "groupKey": "past",
+      "isActive": true,
+      "sortOrder": 2,
+      "multiplier": 5,
+      "shareBitIndex": 31
+    },
+    {
+      "name": "灼热",
+      "color": "灰色",
+      "groupKey": "intermediate",
+      "isActive": true,
+      "sortOrder": 2,
+      "multiplier": 2,
+      "shareBitIndex": 36
+    },
+    {
+      "name": "糖葫芦",
+      "color": "紫色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 2,
+      "multiplier": 1.5,
+      "shareBitIndex": 7
+    },
+    {
+      "name": "异彩",
+      "color": "蓝色",
+      "groupKey": "new",
+      "isActive": true,
+      "sortOrder": 2,
+      "multiplier": 1.5,
+      "shareBitIndex": 44
+    },
+    {
+      "name": "故障",
+      "color": "蓝色",
+      "groupKey": "past",
+      "isActive": true,
+      "sortOrder": 2,
+      "multiplier": 5,
+      "shareBitIndex": 41
+    },
+    {
+      "name": "沙尘",
+      "color": "灰色",
+      "groupKey": "intermediate",
+      "isActive": true,
+      "sortOrder": 3,
+      "multiplier": 2,
+      "shareBitIndex": 35
+    },
+    {
+      "name": "惊魂夜",
+      "color": "蓝色",
+      "groupKey": "past",
+      "isActive": true,
+      "sortOrder": 3,
+      "multiplier": 5,
+      "shareBitIndex": 33
+    },
+    {
+      "name": "琥珀",
+      "color": "蓝色",
+      "groupKey": "new",
+      "isActive": true,
+      "sortOrder": 3,
+      "multiplier": 4.5,
+      "shareBitIndex": 45
+    },
+    {
+      "name": "金",
+      "color": "蓝色",
+      "groupKey": "quality",
+      "isActive": true,
+      "sortOrder": 3,
+      "multiplier": 10,
+      "shareBitIndex": 1
+    },
+    {
+      "name": "连体",
+      "color": "紫色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 3,
+      "multiplier": 1.5,
+      "shareBitIndex": 8
+    },
+    {
+      "name": "落雷",
+      "color": "绿色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 3,
+      "multiplier": 3,
+      "shareBitIndex": 16
+    },
+    {
+      "name": "结霜",
+      "color": "灰色",
+      "groupKey": "intermediate",
+      "isActive": true,
+      "sortOrder": 4,
+      "multiplier": 2,
+      "shareBitIndex": 37
+    },
+    {
+      "name": "黄瓜蛇",
+      "color": "金色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 4,
+      "multiplier": 2.5,
+      "shareBitIndex": 9
+    },
+    {
+      "name": "哈基咪",
+      "color": "蓝色",
+      "groupKey": "past",
+      "isActive": true,
+      "sortOrder": 4,
+      "multiplier": 5,
+      "shareBitIndex": 40
+    },
+    {
+      "name": "银",
+      "color": "绿色",
+      "groupKey": "quality",
+      "isActive": true,
+      "sortOrder": 4,
+      "multiplier": 3,
+      "shareBitIndex": 0
+    },
+    {
+      "name": "冰冻",
+      "color": "绿色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 4,
+      "multiplier": 4,
+      "shareBitIndex": 17
+    },
+    {
+      "name": "暗雾",
+      "color": "蓝色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 4,
+      "multiplier": 6,
+      "shareBitIndex": 25
+    },
+    {
+      "name": "血月",
+      "color": "蓝色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 5,
+      "multiplier": 5,
+      "shareBitIndex": 27
+    },
+    {
+      "name": "颤栗",
+      "color": "灰色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 5,
+      "multiplier": 1,
+      "shareBitIndex": 18
+    },
+    {
+      "name": "万圣夜",
+      "color": "金色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 5,
+      "multiplier": 2,
+      "shareBitIndex": 10
+    },
+    {
+      "name": "彩虹",
+      "color": "蓝色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 6,
+      "multiplier": 5,
+      "shareBitIndex": 28
+    },
+    {
+      "name": "覆雪",
+      "color": "灰色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 6,
+      "multiplier": 2,
+      "shareBitIndex": 19
+    },
+    {
+      "name": "香蕉猴",
+      "color": "金色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 6,
+      "multiplier": 2,
+      "shareBitIndex": 11
+    },
+    {
+      "name": "荧光",
+      "color": "蓝色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 7,
+      "multiplier": 5,
+      "shareBitIndex": 29
+    },
+    {
+      "name": "笑日葵",
+      "color": "彩色",
+      "groupKey": "special",
+      "isActive": true,
+      "sortOrder": 7,
+      "multiplier": 10,
+      "shareBitIndex": 12
+    },
+    {
+      "name": "潮湿",
+      "color": "灰色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 7,
+      "multiplier": 1,
+      "shareBitIndex": 20
+    },
+    {
+      "name": "迷雾",
+      "color": "灰色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 8,
+      "multiplier": 2,
+      "shareBitIndex": 21
+    },
+    {
+      "name": "陨石",
+      "color": "绿色",
+      "groupKey": "rare",
+      "isActive": true,
+      "sortOrder": 8,
+      "multiplier": 3,
+      "shareBitIndex": 26
+    },
+    {
+      "name": "生机",
+      "color": "灰色",
+      "groupKey": "common",
+      "isActive": true,
+      "sortOrder": 9,
+      "multiplier": 2,
+      "shareBitIndex": 22
+    }
+  ]
+}
