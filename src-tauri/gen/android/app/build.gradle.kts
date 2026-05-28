@@ -8,7 +8,7 @@ plugins {
 }
 
 val tauriProperties = Properties().apply {
-    val propFile = file("tauri.properties")
+    val propFile = rootProject.file("tauri.properties")
     if (propFile.exists()) {
         propFile.inputStream().use { load(it) }
     }
@@ -22,8 +22,8 @@ android {
         applicationId = "top.fknc"
         minSdk = 24
         targetSdk = 34
-        versionCode = tauriProperties.getProperty("tauri.android.versionCode", "14").toInt()
-        versionName = tauriProperties.getProperty("tauri.android.versionName", "8.4.0")
+        versionCode = tauriProperties.getProperty("tauri.android.versionCode").toInt()
+        versionName = tauriProperties.getProperty("tauri.android.versionName")
     }
     signingConfigs { 
           create("release") { 
