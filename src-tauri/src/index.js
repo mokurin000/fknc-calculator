@@ -201,7 +201,7 @@ window.addEventListener("DOMContentLoaded", () => {
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(2)
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(3)
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(4)
-    /* Hide more useless things */
+    /* Hide guide, contact, privacy */
     , div.user-center-section:nth-child(4) > div.user-center-item-list > button.user-center-item:nth-child(1)
     , div.user-center-section:nth-child(4) > div.user-center-item-list > button.user-center-item:nth-child(2)
     , div.user-center-section:nth-child(4) > div.user-center-item-list > button.user-center-item:nth-child(4)
