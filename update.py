@@ -23,9 +23,6 @@ css_file = css_style.search(html).group()
 js = request_file(js_file)
 css = request_file(css_file)
 
-with open("src/index.html", "w", encoding="utf-8") as f:
-    f.write(html)
-
 with open("src/assets/index.js", "w", encoding="utf-8") as f:
     f.write(js)
 
