@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 cargo tauri build -b nsis
 cargo tauri android build `
     --apk `
