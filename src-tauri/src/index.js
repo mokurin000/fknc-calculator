@@ -157,6 +157,7 @@ const localRecord = () => {
       "/rest/v1/data_versions",
       "/rest/v1/rpc/get_user_query_leaderboard",
       "/rest/v1/rpc/get_membership_leaderboard",
+      "/rest/v1/rpc/get_feedback_leaderboard",
       "/rest/v1/rpc/get_or_create_invite_code",
       "/rest/v1/rpc/get_my_invite_stats",
       "/rest/v1/rpc/get_game_data",
@@ -166,7 +167,7 @@ const localRecord = () => {
         code: "PGRST301",
         details: null,
         hint: null,
-        message: "暂未支持该操作！"
+        message: "离线版无此数据！",
       });
     }
 
@@ -197,10 +198,9 @@ window.addEventListener("DOMContentLoaded", () => {
     , div.user-center-section:nth-child(2) > div.user-center-membership > button
     /* Hide user feedback */
     , button.contact-option-button:nth-child(3)
-    /* Hide phone, invite, top list */
+    /* Hide phone, invite */
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(2)
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(3)
-    , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(4)
     /* Hide guide, contact, privacy */
     , div.user-center-section:nth-child(4) > div.user-center-item-list > button.user-center-item:nth-child(1)
     , div.user-center-section:nth-child(4) > div.user-center-item-list > button.user-center-item:nth-child(2)
