@@ -191,6 +191,9 @@ window.addEventListener("DOMContentLoaded", () => {
   styleSheet.textContent = `
     /* Hide logout button */
     div.user-center-section-danger
+    /* Favorite button */
+    , button.favorite-header-button , button.share-header-button
+    , div.champion-section-favorite
     /* Hide premium subscription */
     , div.user-center-section:nth-child(2) > div.user-center-membership > button
     /* Hide user feedback */
