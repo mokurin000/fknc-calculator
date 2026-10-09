@@ -1,7 +1,7 @@
 {
   "versions": {
-    "cropsVersion": 141,
-    "mutationsVersion": 36
+    "cropsVersion": 148,
+    "mutationsVersion": 38
   },
   "crops": [
     {
@@ -576,15 +576,24 @@
       "growthSpeed": 800,
       "seedPrice": 28000000,
       "quality": "至臻"
+    },
+    {
+      "name": "秋水仙",
+      "imageUrl": "/carzyfarm/秋水仙.png",
+      "priceCoefficient": 10352,
+      "maxWeight": 34,
+      "growthSpeed": 0,
+      "seedPrice": 33000000,
+      "quality": "至臻"
     }
   ],
   "mutations": [
     {
-      "name": "霓虹",
-      "color": "彩色",
+      "name": "橙钻",
+      "color": "金色",
       "multiplier": 18,
-      "groupKey": "rare",
-      "shareBitIndex": 30,
+      "groupKey": "common",
+      "shareBitIndex": 43,
       "isActive": true,
       "sortOrder": 0
     },
@@ -598,38 +607,20 @@
       "sortOrder": 0
     },
     {
+      "name": "霓虹",
+      "color": "彩色",
+      "multiplier": 18,
+      "groupKey": "rare",
+      "shareBitIndex": 30,
+      "isActive": true,
+      "sortOrder": 0
+    },
+    {
       "name": "星环",
       "color": "紫色",
       "multiplier": 10,
       "groupKey": "past",
       "shareBitIndex": 15,
-      "isActive": true,
-      "sortOrder": 0
-    },
-    {
-      "name": "橙钻",
-      "color": "金色",
-      "multiplier": 18,
-      "groupKey": "common",
-      "shareBitIndex": 43,
-      "isActive": true,
-      "sortOrder": 0
-    },
-    {
-      "name": "幻彩",
-      "color": "金色",
-      "multiplier": 3,
-      "groupKey": "color",
-      "shareBitIndex": 42,
-      "isActive": true,
-      "sortOrder": 0
-    },
-    {
-      "name": "亮晶晶",
-      "color": "紫色",
-      "multiplier": 10,
-      "groupKey": "intermediate",
-      "shareBitIndex": 14,
       "isActive": true,
       "sortOrder": 0
     },
@@ -643,47 +634,29 @@
       "sortOrder": 0
     },
     {
+      "name": "亮晶晶",
+      "color": "紫色",
+      "multiplier": 10,
+      "groupKey": "intermediate",
+      "shareBitIndex": 14,
+      "isActive": true,
+      "sortOrder": 0
+    },
+    {
+      "name": "幻彩",
+      "color": "金色",
+      "multiplier": 3,
+      "groupKey": "color",
+      "shareBitIndex": 42,
+      "isActive": true,
+      "sortOrder": 0
+    },
+    {
       "name": "流火",
       "color": "金色",
       "multiplier": 15,
       "groupKey": "rare",
       "shareBitIndex": 23,
-      "isActive": true,
-      "sortOrder": 1
-    },
-    {
-      "name": "方形",
-      "color": "紫色",
-      "multiplier": 1.5,
-      "groupKey": "special",
-      "shareBitIndex": 6,
-      "isActive": true,
-      "sortOrder": 1
-    },
-    {
-      "name": "流光",
-      "color": "彩色",
-      "multiplier": 30,
-      "groupKey": "quality",
-      "shareBitIndex": 4,
-      "isActive": true,
-      "sortOrder": 1
-    },
-    {
-      "name": "异彩",
-      "color": "蓝色",
-      "multiplier": 1.5,
-      "groupKey": "color",
-      "shareBitIndex": 44,
-      "isActive": true,
-      "sortOrder": 1
-    },
-    {
-      "name": "瓷化",
-      "color": "紫色",
-      "multiplier": 8,
-      "groupKey": "common",
-      "shareBitIndex": 13,
       "isActive": true,
       "sortOrder": 1
     },
@@ -697,38 +670,47 @@
       "sortOrder": 1
     },
     {
+      "name": "瓷化",
+      "color": "紫色",
+      "multiplier": 8,
+      "groupKey": "common",
+      "shareBitIndex": 13,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "name": "异彩",
+      "color": "蓝色",
+      "multiplier": 1.5,
+      "groupKey": "color",
+      "shareBitIndex": 44,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "name": "流光",
+      "color": "彩色",
+      "multiplier": 30,
+      "groupKey": "quality",
+      "shareBitIndex": 4,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "name": "方形",
+      "color": "紫色",
+      "multiplier": 1.5,
+      "groupKey": "special",
+      "shareBitIndex": 6,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
       "name": "水晶",
       "color": "金色",
       "multiplier": 20,
       "groupKey": "quality",
       "shareBitIndex": 2,
-      "isActive": true,
-      "sortOrder": 2
-    },
-    {
-      "name": "故障",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "past",
-      "shareBitIndex": 41,
-      "isActive": true,
-      "sortOrder": 2
-    },
-    {
-      "name": "糖葫芦",
-      "color": "紫色",
-      "multiplier": 1.5,
-      "groupKey": "special",
-      "shareBitIndex": 7,
-      "isActive": true,
-      "sortOrder": 2
-    },
-    {
-      "name": "彩尘",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "past",
-      "shareBitIndex": 46,
       "isActive": true,
       "sortOrder": 2
     },
@@ -742,6 +724,33 @@
       "sortOrder": 2
     },
     {
+      "name": "糖葫芦",
+      "color": "紫色",
+      "multiplier": 1.5,
+      "groupKey": "special",
+      "shareBitIndex": 7,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "name": "故障",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "past",
+      "shareBitIndex": 41,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "name": "彩尘",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "past",
+      "shareBitIndex": 46,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
       "name": "日蚀",
       "color": "紫色",
       "multiplier": 10,
@@ -751,20 +760,20 @@
       "sortOrder": 2
     },
     {
+      "name": "陶化",
+      "color": "绿色",
+      "multiplier": 4,
+      "groupKey": "intermediate",
+      "shareBitIndex": 38,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
       "name": "连体",
       "color": "紫色",
       "multiplier": 1.5,
       "groupKey": "special",
       "shareBitIndex": 8,
-      "isActive": true,
-      "sortOrder": 3
-    },
-    {
-      "name": "金",
-      "color": "蓝色",
-      "multiplier": 10,
-      "groupKey": "quality",
-      "shareBitIndex": 1,
       "isActive": true,
       "sortOrder": 3
     },
@@ -778,15 +787,6 @@
       "sortOrder": 3
     },
     {
-      "name": "冰冻",
-      "color": "绿色",
-      "multiplier": 4,
-      "groupKey": "common",
-      "shareBitIndex": 17,
-      "isActive": true,
-      "sortOrder": 3
-    },
-    {
       "name": "暗雾",
       "color": "蓝色",
       "multiplier": 6,
@@ -796,11 +796,20 @@
       "sortOrder": 3
     },
     {
-      "name": "陶化",
+      "name": "金",
+      "color": "蓝色",
+      "multiplier": 10,
+      "groupKey": "quality",
+      "shareBitIndex": 1,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "name": "冰冻",
       "color": "绿色",
       "multiplier": 4,
-      "groupKey": "intermediate",
-      "shareBitIndex": 38,
+      "groupKey": "common",
+      "shareBitIndex": 17,
       "isActive": true,
       "sortOrder": 3
     },
@@ -808,8 +817,17 @@
       "name": "惊魂夜",
       "color": "蓝色",
       "multiplier": 5,
-      "groupKey": "common",
+      "groupKey": "rare",
       "shareBitIndex": 33,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "name": "黄瓜蛇",
+      "color": "金色",
+      "multiplier": 2,
+      "groupKey": "special",
+      "shareBitIndex": 9,
       "isActive": true,
       "sortOrder": 4
     },
@@ -850,33 +868,6 @@
       "sortOrder": 4
     },
     {
-      "name": "黄瓜蛇",
-      "color": "金色",
-      "multiplier": 2,
-      "groupKey": "special",
-      "shareBitIndex": 9,
-      "isActive": true,
-      "sortOrder": 4
-    },
-    {
-      "name": "沙尘",
-      "color": "灰色",
-      "multiplier": 2,
-      "groupKey": "intermediate",
-      "shareBitIndex": 35,
-      "isActive": true,
-      "sortOrder": 5
-    },
-    {
-      "name": "极光",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "rare",
-      "shareBitIndex": 32,
-      "isActive": true,
-      "sortOrder": 5
-    },
-    {
       "name": "金币",
       "color": "蓝色",
       "multiplier": 5,
@@ -904,11 +895,29 @@
       "sortOrder": 5
     },
     {
-      "name": "血月",
+      "name": "沙尘",
+      "color": "灰色",
+      "multiplier": 2,
+      "groupKey": "intermediate",
+      "shareBitIndex": 35,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "name": "极光",
       "color": "蓝色",
       "multiplier": 5,
-      "groupKey": "past",
-      "shareBitIndex": 27,
+      "groupKey": "rare",
+      "shareBitIndex": 32,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "name": "覆雪",
+      "color": "灰色",
+      "multiplier": 2,
+      "groupKey": "common",
+      "shareBitIndex": 19,
       "isActive": true,
       "sortOrder": 6
     },
@@ -922,11 +931,20 @@
       "sortOrder": 6
     },
     {
-      "name": "覆雪",
-      "color": "灰色",
-      "multiplier": 2,
+      "name": "荧光",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "rare",
+      "shareBitIndex": 29,
+      "isActive": true,
+      "sortOrder": 6
+    },
+    {
+      "name": "血月",
+      "color": "蓝色",
+      "multiplier": 5,
       "groupKey": "common",
-      "shareBitIndex": 19,
+      "shareBitIndex": 27,
       "isActive": true,
       "sortOrder": 6
     },
@@ -940,13 +958,13 @@
       "sortOrder": 6
     },
     {
-      "name": "荧光",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "rare",
-      "shareBitIndex": 29,
+      "name": "灼热",
+      "color": "灰色",
+      "multiplier": 2,
+      "groupKey": "intermediate",
+      "shareBitIndex": 36,
       "isActive": true,
-      "sortOrder": 6
+      "sortOrder": 7
     },
     {
       "name": "迷雾",
@@ -976,15 +994,6 @@
       "sortOrder": 7
     },
     {
-      "name": "灼热",
-      "color": "灰色",
-      "multiplier": 2,
-      "groupKey": "intermediate",
-      "shareBitIndex": 36,
-      "isActive": true,
-      "sortOrder": 7
-    },
-    {
       "name": "颤栗",
       "color": "灰色",
       "multiplier": 1,
@@ -1003,23 +1012,6 @@
       "sortOrder": 8
     }
   ],
-  "featured": [
-    {
-      "cropName": "向日葵",
-      "sortOrder": 0
-    },
-    {
-      "cropName": "菠菜",
-      "sortOrder": 1
-    },
-    {
-      "cropName": "蓝莓",
-      "sortOrder": 2
-    },
-    {
-      "cropName": "棉花",
-      "sortOrder": 3
-    }
-  ],
-  "cachedAt": 1786804377449
+  "featured": [],
+  "cachedAt": 1791540997329
 }
