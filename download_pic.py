@@ -69,6 +69,36 @@ def main():
         except Exception as e:
             print(f"Failed: {e}")
 
+    # Extracted from hard-coded crops
+    for attack_crop in [
+        "委屈掌掌",
+        "尖叫花花",
+        "赌气椒椒",
+        "爆爆玉米",
+        "炸毛蒲蒲",
+        "摇摇风铃",
+        "砰砰石榴",
+        "咚咚南瓜",
+        "皮皮香蕉猴",
+        "墩墩大象",
+        "扭扭黄瓜蛇",
+    ]:
+        url_path = quote_url_path(f"/carzyfarm/{attack_crop}.png")
+        full_url = urljoin(BASE_URL, url_path)
+        save_path = OUTPUT_DIR / f"{attack_crop}.png"
+
+        if save_path.exists() and not args.overwrite:
+            print(f"Skip existing: {save_path}")
+            continue
+
+        print(f"Downloading: {full_url}")
+        print(f" -> {save_path}")
+
+        try:
+            urlretrieve(full_url, save_path)
+        except Exception as e:
+            print(f"Failed: {e}")
+
     print("Done.")
 
 

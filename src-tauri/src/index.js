@@ -6,7 +6,7 @@ const emailAddr = "guest@fknc.top";
 const userId = "000d9a00-254f-41d3-a181-19d2afd2a1b9";
 const identityId = "7aaf0e36-94d8-4453-becf-b8868f85af34";
 
-const storageKey = "sb-nwacdthvbfukhxqyvuxh-auth-token";
+const storageKey = "sb-www-auth-token";
 
 let nickName = localStorage.getItem("nick-name") ?? "疯狂的农民";
 let avatarIndex = parseInt(localStorage.getItem("avatar-index") ?? "18");
@@ -105,29 +105,29 @@ const localRecord = () => {
     let mockBody = null;
     let returnCode = 200;
 
-    if (parsed.pathname === "/rest/v1/rpc/use_free_query") {
+    if (parsed.pathname === "/api/rest/v1/rpc/use_free_query") {
       // Unlock free query
       mockBody = JSON.stringify({
         allowed: true
       });
-    } else if (parsed.pathname === "/rest/v1/user_profiles") {
+    } else if (parsed.pathname === "/api/rest/v1/user_profiles") {
       // Spoof phone number
       mockBody = JSON.stringify([{ phone: 110 }]);
-    } else if (parsed.pathname === "/rest/v1/rpc/get_my_subscription") {
+    } else if (parsed.pathname === "/api/rest/v1/rpc/get_my_subscription") {
       // Spoof premium expiry time
       mockBody = JSON.stringify({
         subscription_end_at: 7955157722000,
         is_active: true
       });
-    } else if (parsed.pathname === "/rest/v1/crop_daily_stats") {
+    } else if (parsed.pathname === "/api/rest/v1/crop_daily_stats") {
       // Mock daily click stats
       mockBody = JSON.stringify([]);
-    } else if (parsed.pathname === "/rest/v1/rpc/log_user_query") {
+    } else if (parsed.pathname === "/api/rest/v1/rpc/log_user_query") {
       // Disable user query log
       mockBody = JSON.stringify({
         ok: true
       });
-    } else if (parsed.pathname === "/rest/v1/rpc/set_display_name") {
+    } else if (parsed.pathname === "/api/rest/v1/rpc/set_display_name") {
       // Support custom nickname
       const newNickName = JSON.parse(init.body)?.p_display_name;
 
@@ -152,15 +152,15 @@ const localRecord = () => {
 
       mockBody = JSON.stringify(userMetadata());
     } else if ([
-      "/rest/v1/user_feedback",
-      "/rest/v1/price_feedback",
-      "/rest/v1/data_versions",
-      "/rest/v1/rpc/get_user_query_leaderboard",
-      "/rest/v1/rpc/get_membership_leaderboard",
-      "/rest/v1/rpc/get_feedback_leaderboard",
-      "/rest/v1/rpc/get_or_create_invite_code",
-      "/rest/v1/rpc/get_my_invite_stats",
-      "/rest/v1/rpc/get_game_data",
+      "/api/rest/v1/user_feedback",
+      "/api/rest/v1/price_feedback",
+      "/api/rest/v1/data_versions",
+      "/api/rest/v1/rpc/get_user_query_leaderboard",
+      "/api/rest/v1/rpc/get_membership_leaderboard",
+      "/api/rest/v1/rpc/get_feedback_leaderboard",
+      "/api/rest/v1/rpc/get_or_create_invite_code",
+      "/api/rest/v1/rpc/get_my_invite_stats",
+      "/api/rest/v1/rpc/get_game_data",
     ].includes(parsed.pathname)) {
       returnCode = 401;
       mockBody = JSON.stringify({
@@ -201,6 +201,7 @@ window.addEventListener("DOMContentLoaded", () => {
     /* Hide phone, invite */
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(2)
     , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(3)
+    , div.user-center-section:nth-child(3) > div.user-center-item-list > button.user-center-item:nth-child(8)
     /* Hide guide, contact, privacy */
     , div.user-center-section:nth-child(4) > div.user-center-item-list > button.user-center-item:nth-child(1)
     , div.user-center-section:nth-child(4) > div.user-center-item-list > button.user-center-item:nth-child(2)

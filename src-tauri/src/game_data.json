@@ -1,7 +1,7 @@
 {
   "versions": {
-    "cropsVersion": 148,
-    "mutationsVersion": 38
+    "cropsVersion": 172,
+    "mutationsVersion": 50
   },
   "crops": [
     {
@@ -151,7 +151,7 @@
     {
       "name": "玉米",
       "imageUrl": "/carzyfarm/玉米.png",
-      "priceCoefficient": 103.5146,
+      "priceCoefficient": 103.5287,
       "maxWeight": 40.8,
       "growthSpeed": 27.78,
       "seedPrice": 90000,
@@ -226,7 +226,7 @@
     {
       "name": "石榴",
       "imageUrl": "/carzyfarm/石榴.png",
-      "priceCoefficient": 526.8633,
+      "priceCoefficient": 527.1078,
       "maxWeight": 20.4,
       "growthSpeed": 83.5,
       "seedPrice": 250000,
@@ -325,7 +325,7 @@
     {
       "name": "荔枝",
       "imageUrl": "/carzyfarm/荔枝.png",
-      "priceCoefficient": 790.0566,
+      "priceCoefficient": 790.0773,
       "maxWeight": 23.8,
       "growthSpeed": 135,
       "seedPrice": 2000000,
@@ -397,7 +397,7 @@
     {
       "name": "蟠桃",
       "imageUrl": "/carzyfarm/蟠桃.png",
-      "priceCoefficient": 8783.9561,
+      "priceCoefficient": 8784.2302,
       "maxWeight": 20.4,
       "growthSpeed": 1333.33,
       "seedPrice": 24000000,
@@ -406,7 +406,7 @@
     {
       "name": "星空玫瑰",
       "imageUrl": "/carzyfarm/新星空玫瑰.png",
-      "priceCoefficient": 33129.1179,
+      "priceCoefficient": 33124.2442,
       "maxWeight": 10.2,
       "growthSpeed": 2966.6,
       "seedPrice": 11200000,
@@ -451,7 +451,7 @@
     {
       "name": "魔鬼朝天椒",
       "imageUrl": "/carzyfarm/魔鬼朝天椒.png",
-      "priceCoefficient": 33110.323,
+      "priceCoefficient": 33113.7406,
       "maxWeight": 10.2,
       "growthSpeed": 2400,
       "seedPrice": 25000000,
@@ -580,20 +580,83 @@
     {
       "name": "秋水仙",
       "imageUrl": "/carzyfarm/秋水仙.png",
-      "priceCoefficient": 10352,
+      "priceCoefficient": 10349.9356,
       "maxWeight": 34,
       "growthSpeed": 0,
       "seedPrice": 33000000,
+      "quality": "至臻"
+    },
+    {
+      "name": "雪莲",
+      "imageUrl": "/carzyfarm/雪莲.png",
+      "priceCoefficient": 56993.9613,
+      "maxWeight": 10.2,
+      "growthSpeed": 0,
+      "seedPrice": 29000000,
+      "quality": "至臻"
+    },
+    {
+      "name": "藏红花",
+      "imageUrl": "/carzyfarm/藏红花.png",
+      "priceCoefficient": 4274,
+      "maxWeight": 20.4,
+      "growthSpeed": 0,
+      "seedPrice": 4000000,
+      "quality": "金色"
+    },
+    {
+      "name": "灵芝",
+      "imageUrl": "/carzyfarm/灵芝.png",
+      "priceCoefficient": 303.7,
+      "maxWeight": 61.2,
+      "growthSpeed": 0,
+      "seedPrice": 2000000,
+      "quality": "金色"
+    },
+    {
+      "name": "芒果",
+      "imageUrl": "/carzyfarm/芒果.png",
+      "priceCoefficient": 4946,
+      "maxWeight": 8.5,
+      "growthSpeed": 0,
+      "seedPrice": 400000,
+      "quality": "紫色"
+    },
+    {
+      "name": "银杏",
+      "imageUrl": "/carzyfarm/银杏.png",
+      "priceCoefficient": 93000,
+      "maxWeight": 5.1,
+      "growthSpeed": 0,
+      "seedPrice": 11000000,
+      "quality": "至臻"
+    },
+    {
+      "name": "迷路的疯象南瓜",
+      "imageUrl": "/carzyfarm/迷路的疯象南瓜.png",
+      "priceCoefficient": 942.6174,
+      "maxWeight": 42.5,
+      "growthSpeed": 0,
+      "seedPrice": 100,
+      "quality": "金色"
+    },
+    {
+      "name": "沉静的疯象南瓜",
+      "imageUrl": "/carzyfarm/沉静的疯象南瓜.png",
+      "priceCoefficient": 8785,
+      "maxWeight": 45.2,
+      "growthSpeed": 0,
+      "seedPrice": 20000000,
       "quality": "至臻"
     }
   ],
   "mutations": [
     {
-      "name": "橙钻",
-      "color": "金色",
+      "name": "霓虹",
+      "color": "彩色",
       "multiplier": 18,
-      "groupKey": "common",
-      "shareBitIndex": 43,
+      "groupKey": "rare",
+      "shareBitIndex": 30,
       "isActive": true,
       "sortOrder": 0
     },
@@ -607,11 +670,11 @@
       "sortOrder": 0
     },
     {
-      "name": "霓虹",
-      "color": "彩色",
-      "multiplier": 18,
-      "groupKey": "rare",
-      "shareBitIndex": 30,
+      "name": "亮晶晶",
+      "color": "紫色",
+      "multiplier": 10,
+      "groupKey": "intermediate",
+      "shareBitIndex": 14,
       "isActive": true,
       "sortOrder": 0
     },
@@ -634,15 +697,6 @@
       "sortOrder": 0
     },
     {
-      "name": "亮晶晶",
-      "color": "紫色",
-      "multiplier": 10,
-      "groupKey": "intermediate",
-      "shareBitIndex": 14,
-      "isActive": true,
-      "sortOrder": 0
-    },
-    {
       "name": "幻彩",
       "color": "金色",
       "multiplier": 3,
@@ -650,6 +704,42 @@
       "shareBitIndex": 42,
       "isActive": true,
       "sortOrder": 0
+    },
+    {
+      "name": "橙钻",
+      "color": "金色",
+      "multiplier": 18,
+      "groupKey": "common",
+      "shareBitIndex": 43,
+      "isActive": true,
+      "sortOrder": 0
+    },
+    {
+      "name": "异彩",
+      "color": "蓝色",
+      "multiplier": 1.5,
+      "groupKey": "color",
+      "shareBitIndex": 44,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "name": "方形",
+      "color": "紫色",
+      "multiplier": 1.5,
+      "groupKey": "special",
+      "shareBitIndex": 6,
+      "isActive": true,
+      "sortOrder": 1
+    },
+    {
+      "name": "瓷化",
+      "color": "紫色",
+      "multiplier": 8,
+      "groupKey": "common",
+      "shareBitIndex": 13,
+      "isActive": true,
+      "sortOrder": 1
     },
     {
       "name": "流火",
@@ -670,38 +760,11 @@
       "sortOrder": 1
     },
     {
-      "name": "瓷化",
-      "color": "紫色",
-      "multiplier": 8,
-      "groupKey": "common",
-      "shareBitIndex": 13,
-      "isActive": true,
-      "sortOrder": 1
-    },
-    {
-      "name": "异彩",
-      "color": "蓝色",
-      "multiplier": 1.5,
-      "groupKey": "color",
-      "shareBitIndex": 44,
-      "isActive": true,
-      "sortOrder": 1
-    },
-    {
       "name": "流光",
       "color": "彩色",
       "multiplier": 30,
       "groupKey": "quality",
       "shareBitIndex": 4,
-      "isActive": true,
-      "sortOrder": 1
-    },
-    {
-      "name": "方形",
-      "color": "紫色",
-      "multiplier": 1.5,
-      "groupKey": "special",
-      "shareBitIndex": 6,
       "isActive": true,
       "sortOrder": 1
     },
@@ -715,20 +778,20 @@
       "sortOrder": 2
     },
     {
-      "name": "太阳耀斑",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "intermediate",
-      "shareBitIndex": 34,
-      "isActive": true,
-      "sortOrder": 2
-    },
-    {
       "name": "糖葫芦",
       "color": "紫色",
       "multiplier": 1.5,
       "groupKey": "special",
       "shareBitIndex": 7,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "name": "太阳耀斑",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "intermediate",
+      "shareBitIndex": 34,
       "isActive": true,
       "sortOrder": 2
     },
@@ -742,20 +805,20 @@
       "sortOrder": 2
     },
     {
-      "name": "彩尘",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "past",
-      "shareBitIndex": 46,
-      "isActive": true,
-      "sortOrder": 2
-    },
-    {
       "name": "日蚀",
       "color": "紫色",
       "multiplier": 10,
       "groupKey": "rare",
       "shareBitIndex": 24,
+      "isActive": true,
+      "sortOrder": 2
+    },
+    {
+      "name": "彩尘",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "past",
+      "shareBitIndex": 46,
       "isActive": true,
       "sortOrder": 2
     },
@@ -778,24 +841,6 @@
       "sortOrder": 3
     },
     {
-      "name": "哈基咪",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "past",
-      "shareBitIndex": 40,
-      "isActive": true,
-      "sortOrder": 3
-    },
-    {
-      "name": "暗雾",
-      "color": "蓝色",
-      "multiplier": 6,
-      "groupKey": "rare",
-      "shareBitIndex": 25,
-      "isActive": true,
-      "sortOrder": 3
-    },
-    {
       "name": "金",
       "color": "蓝色",
       "multiplier": 10,
@@ -814,29 +859,29 @@
       "sortOrder": 3
     },
     {
+      "name": "暗雾",
+      "color": "蓝色",
+      "multiplier": 6,
+      "groupKey": "rare",
+      "shareBitIndex": 25,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
+      "name": "哈基咪",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "past",
+      "shareBitIndex": 40,
+      "isActive": true,
+      "sortOrder": 3
+    },
+    {
       "name": "惊魂夜",
       "color": "蓝色",
       "multiplier": 5,
       "groupKey": "rare",
       "shareBitIndex": 33,
-      "isActive": true,
-      "sortOrder": 4
-    },
-    {
-      "name": "黄瓜蛇",
-      "color": "金色",
-      "multiplier": 2,
-      "groupKey": "special",
-      "shareBitIndex": 9,
-      "isActive": true,
-      "sortOrder": 4
-    },
-    {
-      "name": "落雷",
-      "color": "绿色",
-      "multiplier": 3,
-      "groupKey": "common",
-      "shareBitIndex": 16,
       "isActive": true,
       "sortOrder": 4
     },
@@ -850,15 +895,6 @@
       "sortOrder": 4
     },
     {
-      "name": "彩虹",
-      "color": "蓝色",
-      "multiplier": 5,
-      "groupKey": "rare",
-      "shareBitIndex": 28,
-      "isActive": true,
-      "sortOrder": 4
-    },
-    {
       "name": "结霜",
       "color": "灰色",
       "multiplier": 2,
@@ -868,11 +904,38 @@
       "sortOrder": 4
     },
     {
-      "name": "金币",
+      "name": "彩虹",
       "color": "蓝色",
       "multiplier": 5,
-      "groupKey": "past",
-      "shareBitIndex": 39,
+      "groupKey": "rare",
+      "shareBitIndex": 28,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "name": "落雷",
+      "color": "绿色",
+      "multiplier": 3,
+      "groupKey": "common",
+      "shareBitIndex": 16,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "name": "黄瓜蛇",
+      "color": "金色",
+      "multiplier": 2,
+      "groupKey": "special",
+      "shareBitIndex": 9,
+      "isActive": true,
+      "sortOrder": 4
+    },
+    {
+      "name": "沙尘",
+      "color": "灰色",
+      "multiplier": 2,
+      "groupKey": "intermediate",
+      "shareBitIndex": 35,
       "isActive": true,
       "sortOrder": 5
     },
@@ -886,20 +949,11 @@
       "sortOrder": 5
     },
     {
-      "name": "潮湿",
-      "color": "灰色",
-      "multiplier": 1,
-      "groupKey": "common",
-      "shareBitIndex": 20,
-      "isActive": true,
-      "sortOrder": 5
-    },
-    {
-      "name": "沙尘",
-      "color": "灰色",
-      "multiplier": 2,
-      "groupKey": "intermediate",
-      "shareBitIndex": 35,
+      "name": "金币",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "past",
+      "shareBitIndex": 39,
       "isActive": true,
       "sortOrder": 5
     },
@@ -913,11 +967,20 @@
       "sortOrder": 5
     },
     {
-      "name": "覆雪",
+      "name": "潮湿",
+      "color": "灰色",
+      "multiplier": 1,
+      "groupKey": "common",
+      "shareBitIndex": 20,
+      "isActive": true,
+      "sortOrder": 5
+    },
+    {
+      "name": "生机",
       "color": "灰色",
       "multiplier": 2,
-      "groupKey": "common",
-      "shareBitIndex": 19,
+      "groupKey": "intermediate",
+      "shareBitIndex": 22,
       "isActive": true,
       "sortOrder": 6
     },
@@ -943,37 +1006,19 @@
       "name": "血月",
       "color": "蓝色",
       "multiplier": 5,
-      "groupKey": "common",
+      "groupKey": "past",
       "shareBitIndex": 27,
       "isActive": true,
       "sortOrder": 6
     },
     {
-      "name": "生机",
-      "color": "灰色",
-      "multiplier": 2,
-      "groupKey": "intermediate",
-      "shareBitIndex": 22,
-      "isActive": true,
-      "sortOrder": 6
-    },
-    {
-      "name": "灼热",
-      "color": "灰色",
-      "multiplier": 2,
-      "groupKey": "intermediate",
-      "shareBitIndex": 36,
-      "isActive": true,
-      "sortOrder": 7
-    },
-    {
-      "name": "迷雾",
+      "name": "覆雪",
       "color": "灰色",
       "multiplier": 2,
       "groupKey": "common",
-      "shareBitIndex": 21,
+      "shareBitIndex": 19,
       "isActive": true,
-      "sortOrder": 7
+      "sortOrder": 6
     },
     {
       "name": "笑日葵",
@@ -994,13 +1039,22 @@
       "sortOrder": 7
     },
     {
-      "name": "颤栗",
+      "name": "迷雾",
       "color": "灰色",
-      "multiplier": 1,
+      "multiplier": 2,
       "groupKey": "common",
-      "shareBitIndex": 18,
+      "shareBitIndex": 21,
       "isActive": true,
-      "sortOrder": 8
+      "sortOrder": 7
+    },
+    {
+      "name": "灼热",
+      "color": "灰色",
+      "multiplier": 2,
+      "groupKey": "intermediate",
+      "shareBitIndex": 36,
+      "isActive": true,
+      "sortOrder": 7
     },
     {
       "name": "陨石",
@@ -1010,8 +1064,35 @@
       "shareBitIndex": 26,
       "isActive": true,
       "sortOrder": 8
+    },
+    {
+      "name": "颤栗",
+      "color": "灰色",
+      "multiplier": 1,
+      "groupKey": "common",
+      "shareBitIndex": 18,
+      "isActive": true,
+      "sortOrder": 8
+    },
+    {
+      "name": "花雨",
+      "color": "紫色",
+      "multiplier": 7,
+      "groupKey": "rare",
+      "shareBitIndex": 47,
+      "isActive": true,
+      "sortOrder": 9
+    },
+    {
+      "name": "幽幽南瓜",
+      "color": "蓝色",
+      "multiplier": 5,
+      "groupKey": "common",
+      "shareBitIndex": 48,
+      "isActive": true,
+      "sortOrder": 9
     }
   ],
   "featured": [],
-  "cachedAt": 1791540997329
+  "cachedAt": 1794238580609
 }
